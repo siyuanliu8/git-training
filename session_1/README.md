@@ -74,8 +74,16 @@ git push -u origin master
 
 * you can now see the changes you made locally on your github repository 
 
-
-
+## Summary 
+* git config 
+* git init 
+* git status
+* git add 
+* git commit 
+* git remote add 
+* git remote -v 
+* git push
+* editing README.md
 
 
 
