@@ -60,9 +60,9 @@ git status
 1. create an account on github.com, if you don't already have one. 
 2. login to your github account 
 3. create a new repository on github
-..* it can be given a name different from the local 
-..* however, good practice to be consistent in naming local and remote repositories 
-..* don't add README.md or gitignore files
+* it can be given a name different from the local 
+* however, good practice to be consistent in naming local and remote repositories 
+* don't add README.md or gitignore files
 4. copy the HTTPS link 
 5. push the repo from command line 
 
