@@ -5,8 +5,8 @@
 ### git Command structure
 `git verb options`
 
-`verb` : action that you want git to perform
-`options` : more specific options for the action to be performed
+* `verb` : action that you want git to perform
+* `options` : more specific options for the action to be performed
 
 ### git config --global
 
