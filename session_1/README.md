@@ -15,6 +15,6 @@ $ git config --global user.email "arsh2794@gmail.com"
 
 **--global = all git projects**
 
-..* These settings (or configs) make sure that every commit across every git project will have the above username and email
-..* GitHub is the git hosting service we'll be using so the user.email should be the email with which you signed up for git
+* These settings (or configs) make sure that every commit across every git project will have the above username and email
+* GitHub is the git hosting service we'll be using so the user.email should be the email with which you signed up for git
 
