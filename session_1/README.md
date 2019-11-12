@@ -38,7 +38,7 @@ ls -a
 * .git sub-directory within the directory is what makes it a repository 
 
 ### creating a new file and tracking it with git
-```
+```python
 touch myNewFile.txt 
 echo 'Hello, world!' > myNewFile.txt
 
@@ -66,7 +66,7 @@ git status
 4. copy the HTTPS link 
 5. push the repo from command line 
 
-```
+```python
 git remote add origin https://github.com/Arshitha/sample.git
 git remote -v
 git push -u origin master
