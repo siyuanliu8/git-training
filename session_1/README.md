@@ -30,7 +30,7 @@ ls -a
 ```
 * Right now this is just another directory on my desktop. How do I make this a repo?
 
-```python
+```shell
 git init 
 ls -a 
 ```
@@ -38,7 +38,7 @@ ls -a
 * .git sub-directory within the directory is what makes it a repository 
 
 ### creating a new file and tracking it with git
-```python
+```shell
 touch myNewFile.txt 
 echo 'Hello, world!' > myNewFile.txt
 
@@ -53,7 +53,18 @@ git status
 # commiting the file 
 git commit -m "test file commit" 
 
-git status 
+git status
+
+vi myNewFile.txt 
+# add 2 new lines of text 
+
+git diff 
+
+git status
+
+git add myNewFile.txt 
+
+git commit -m "adding two new lines" 
 ```
 
 ### creating a remote repo and pushing the changes to remote
