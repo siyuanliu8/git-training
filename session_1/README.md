@@ -21,7 +21,7 @@ git config --global user.email "arsh2794@gmail.com"
 * GitHub is the git hosting service we'll be using so the user.email should be the email with which you signed up for git
 
 ### creating local repository
-```python
+```bash
 # creating a directory on the desktop
 cd ~/Desktop 
 mkdir sample
