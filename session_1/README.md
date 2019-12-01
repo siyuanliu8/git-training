@@ -38,7 +38,7 @@ ls -a
 * .git sub-directory within the directory is what makes it a repository 
 
 ### creating a new file and tracking it with git
-```shell
+```bash
 touch myNewFile.txt 
 echo 'Hello, world!' > myNewFile.txt
 
