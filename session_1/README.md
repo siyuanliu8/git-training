@@ -105,6 +105,17 @@ touch README.md
 
 More here: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
+## Exercise: 
+1. Create a directory on your desktop called 'first-repo'
+2. Make it a git repository 
+3. Create two files:
+ * A text file (e.g. sample.txt)
+ * A README file (e.g. README.md)
+4. Edit the files using your text editor of choice 
+5. Track and commit both files
+6. Now, create a new repository on GitHub and push your local copy to remote (i.e., repo on GitHub). Verify on GitHub if the push was successful.
+7. Create a new directory on the local repo called 'session_1'. Do you think you need to track this sub-directory separately? 
+
 ## Summary 
 * git config 
 * git init 
