@@ -1,6 +1,8 @@
 # Session 1
 
-## Example 1
+In this session we go over the concepts of version control and in particular, git. We'll also work through an example and an exercise below.  
+
+## Example: 
 
 ### git Command structure
 `git verb options`
@@ -72,9 +74,9 @@ git commit -m "adding two new lines"
 1. create an account on github.com, if you don't already have one. 
 2. login to your github account 
 3. create a new repository on github
-* it can be given a name different from the local 
-* however, good practice to be consistent in naming local and remote repositories 
-* don't add README.md or gitignore files
+  * it can be given a name different from the local 
+  * however, good practice to be consistent in naming local and remote repositories 
+  * don't add README.md or gitignore files
 4. copy the HTTPS link 
 5. push the repo from command line 
 
@@ -91,6 +93,18 @@ git push -u origin master
 git log
 ```
 
+### adding and editing README.md 
+```shell
+touch README.md
+```
+* README is a simple and brief documentation for other users to understand your project
+* README and wikis are the two ways to document your work on GitHub. Wikis are for a more detailed and more technical documentation of your work. 
+* README is, generally, found in the root directory of the repo. However, you can have one in every directory too. Like in this repo. 
+* '.md' stands for markdown
+* Markdown is lightweight markup language with plain text formatting syntax. We'll see what that means. 
+
+More here: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 ## Summary 
 * git config 
 * git init 
@@ -101,12 +115,5 @@ git log
 * git remote add 
 * git remote -v 
 * git push
+* git log 
 * editing README.md
-
-
-
-
-
-
-
-
