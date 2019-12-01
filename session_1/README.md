@@ -21,7 +21,7 @@ git config --global user.email "arsh2794@gmail.com"
 * GitHub is the git hosting service we'll be using so the user.email should be the email with which you signed up for git
 
 ### creating local repository
-```bash
+```shell
 # creating a directory on the desktop
 cd ~/Desktop 
 mkdir sample
@@ -38,7 +38,7 @@ ls -a
 * .git sub-directory within the directory is what makes it a repository 
 
 ### creating a new file and tracking it with git
-```bash
+```shell
 touch myNewFile.txt 
 echo 'Hello, world!' > myNewFile.txt
 
@@ -77,18 +77,24 @@ git commit -m "adding two new lines"
 4. copy the HTTPS link 
 5. push the repo from command line 
 
-```python
+```shell
 git remote add origin https://github.com/Arshitha/sample.git
 git remote -v
 git push -u origin master
 ```
 
-* you can now see the changes you made locally on your github repository 
+* you can now see the changes you made locally on your github repository
+
+### check the commits made so far
+```shell
+git log
+```
 
 ## Summary 
 * git config 
 * git init 
 * git status
+* git diff
 * git add 
 * git commit 
 * git remote add 
