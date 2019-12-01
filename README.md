@@ -15,7 +15,7 @@
 
 * Git for Beginners by Corey Schafer: https://www.youtube.com/watch?v=HVsySz-h9r4&t=690s
 
-* GitHub Documentation: https://guides.github.com/features/wikis/
+* GitHub Documentation Tutorial: https://guides.github.com/features/wikis/
 
 
 
