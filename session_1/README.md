@@ -58,6 +58,7 @@ git status
 vi myNewFile.txt 
 # add 2 new lines of text 
 
+# differences made after the last commit
 git diff 
 
 git status
