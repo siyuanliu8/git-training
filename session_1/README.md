@@ -2,6 +2,8 @@
 
 In this session we go over the concepts of version control and in particular, git. We'll also work through an example and an exercise below.  
 
+Ether pad link: https://pad.carpentries.org/nih-git-2019-12
+
 ## Example: 
 
 ### git Command structure
