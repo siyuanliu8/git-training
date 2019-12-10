@@ -5,7 +5,7 @@ recurse_fib <- function(n) {
 	if(n <= 1) {
 		return(n)
 	} else {
-		return(recurse_fibonacci(n-1) + recurse_fibonacci(n-2))
+		return(recurse_fib(n-1) + recurse_fib(n-2))
 	}
 }
 
@@ -19,7 +19,7 @@ fib_seq <- function() {
 		} else {
 			print("Fibonacci sequence:")
 			for(i in 0:(nterms-1)) {
-			print(recurse_fibonacci(i))
+			print(recurse_fib(i))
 		}
 	}
 }
