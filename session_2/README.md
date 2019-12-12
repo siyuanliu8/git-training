@@ -196,7 +196,18 @@ git log
 5. `git status` to verify if all the files listed above are ignored. If yes, add and commit the `.gitignore` file. 
 6. Inside the `dontCare/` directory, create a new file named `random4.txt` and make sure it's being tracked. (HINT: It won't be tracked since the folder `dontCare/` is in `.gitignore`) How do you track only `random4.txt`? Try to google it or ask one of us. You might find some help here too: https://swcarpentry.github.io/git-novice/06-ignore/index.html
 7. Create a chain of commits. Make some trivial edits to the `even.R` create a chain of commits so that you can later use to go and back forth in the commit history. 
-8. Revert back to the original `even.R` code without any of the edits you made. 
+8. Revert back to the original `even.R` code without any of the edits you made. Looks as follows:
+```r
+# list of integers from 1 to 10
+a <- (1:10)
+
+# printing even numbers
+for (each in a){
+  if(each %% 2 == 0){
+    print(paste0("Here is an even integer: ", each))
+  }
+}
+```
 9. Push the changes to remote. 
 10. Document the code in the README.md on your GitHub account. 
 11. Pull down the changes to your local repository. 
