@@ -9,7 +9,7 @@
 
 ## Tutorials 
 
-* Version Control with Git By Sofware Carpentry: https://swcarpentry.github.io/git-novice/
+* Version Control with Git By Software Carpentry: https://swcarpentry.github.io/git-novice/
 
 * git Concept: http://practicalseries.com/1002-vcs/02-00-concept.html#js--000000 
 
