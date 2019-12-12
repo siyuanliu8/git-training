@@ -192,7 +192,7 @@ git log
 4. Create `.gitignore` file and add the following: 
   * .RHistory and other session files 
   * `random1.txt`, `random2.txt` and `random3.txt` without typing the filenames individually. (HINT: Use wildcards)
-  * dontCare directory 
+  * `dontCare` directory 
 5. `git status` to verify if all the files listed above are ignored. If yes, add and commit the `.gitignore` file. 
 6. Inside the `dontCare/` directory, create a new file named `random4.txt` and make sure it's being tracked. (HINT: It won't be tracked since the folder `dontCare/` is in `.gitignore`) How do you track only `random4.txt`? Try to google it or ask one of us. 
 7. Create a chain of commits. Make some trivial edits to the `even.R` create a chain of commits so that you can later use to go and back forth in the commit history. 
