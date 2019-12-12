@@ -134,7 +134,26 @@ Correct checkout command requires filename along with the commit ID.
 
 ```
 git checkout <commit ID> <filename> 
-``` 
+```
+
+## Example 2: 
+
+1. Fork the git-training repo
+2. Clone it down to your local machine 
+`git clone <repository url> ` 
+3. Find the `calc.R` file within your local copy of the repository in RStudio
+4. Go to your GitHub (not local copy) `git-training` repository 
+5. Edit the README.md associated with the `R` directory on GitHub.
+`# Documentation for calc.R`
+6. Commit and see the changes rendered. 
+
+7. In a new tab on your RStudio editor, open the README.md file within the `R` directory. What do you notice? 
+
+8. `git pull origin` to pull down the changes made on remote
+9. Edit the README.md
+10. Add, commit and push the changes to remote
+
+## Exercise
 
 
 
