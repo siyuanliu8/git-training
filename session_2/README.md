@@ -188,15 +188,19 @@ git log
 
 1. Fork the repo from https://github.com/Arshitha/session2-exercise/
 2. Clone it down to your local machine 
-3. Run the `even.R` code in RStudio and close RStudio. (Don't forget to set your `session2-exercise` directory as your working directory in RStudio) 
-4. Create `.gitignore` file and add the following: 
+3. Run the `even.R` code in RStudio  
+4. Close RStudio and save the session (Don't forget to set your `session2-exercise` directory as your working directory in RStudio) 
+5. Create`random1.txt`, `random2.txt` and `random3.txt` files in the root directory of the repo. 
+6. Inside `dontCare/` directory create `random4.txt` and `random5.txt`
+7. Reopen RStudio
+8. `git status`. You'll see all of the files that you just created as untracked.
+9. Create `.gitignore` file and add the following: 
   * .RHistory and other session files 
-  * `random1.txt`, `random2.txt` and `random3.txt` without typing the filenames individually. (HINT: Use wildcards)
-  * `dontCare` directory 
-5. `git status` to verify if all the files listed above are ignored. If yes, add and commit the `.gitignore` file. 
-6. Inside the `dontCare/` directory, create a new file named `random5.txt` and make sure it's being tracked. (HINT: It won't be tracked since the folder `dontCare/` is in `.gitignore`) How do you track only `random5.txt`? Try to google it or ask one of us. You might find some help here too: https://swcarpentry.github.io/git-novice/06-ignore/index.html
-7. Create a chain of commits. Make some trivial edits to the `even.R` create a chain of commits so that you can later use to go and back forth in the commit history. 
-8. Revert back to the original `even.R` code without any of the edits you made. Looks as follows:
+  * `random1.txt`, `random2.txt` and `random3.txt` **without typing the filenames individually**. (HINT: Use wildcards)
+  * Everything inside `dontCare` directory 
+10. `git status` to verify if all the files listed above are ignored. If yes, add and commit the `.gitignore` file. 
+11. Create a chain of commits. Make some trivial edits (like adding stray comments, deleting a line of code etc) to the `even.R` create a chain of commits so that you can later use to go and back forth in the commit history. 
+12. Revert back to the original `even.R` code without any of the edits you made. Looks as follows:
 ```r
 # list of integers from 1 to 10
 a <- (1:10)
@@ -211,8 +215,6 @@ for (each in a){
 9. Push the changes to remote. 
 10. Document the code in the README.md on your GitHub account. 
 11. Pull down the changes to your local repository. 
-
-
 
 
 
