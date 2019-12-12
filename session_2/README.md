@@ -148,7 +148,7 @@ To get out of the detached HEAD state `git checkout master`
 *Correct checkout command requires filename along with the commit ID.* 
 
 ```
-git checkout <commit ID> <filename> 
+git checkout <commit ID> test.r 
 
 # now the file is back to a previous version. If you decide to keep this version, then add and commit it. 
 # This will show up as a new commit in the commit history
