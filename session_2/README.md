@@ -43,6 +43,7 @@ add = a + b
 print(add)
 
 ```
+Source and run the code within RStudio. 
 
 Now, let's close our RStudio session and when prompted save the session before closing. 
 
@@ -57,9 +58,9 @@ git status
 
 You should see a list of .RHistory and other session files that are currently untracked. 
 
-These files are relevant only to the user of the local machine. If we track this, then all of our subsequent commits will contain these files even though they aren't relevant to the project itself and that's bad practice because: 
+These files are relevant only to the user of the local machine. Tracking these files would be a bad practice because: 
 	* As the project grows, we want the commit history to be as succinct as possible so that we can go back and forth without having to sort through irrelevant commits  
-	* If we are collaborating with others and if I commit and pushes my metadata, each time someone else pulls the repo into their local, there'll be merge conflicts (more in the next session)
+	* If we are collaborating with others and if I commit and push my metadata, each time someone else pulls the repo into their local, they'll have to deal with merge conflicts (more in the next session)
 
 There could be other scenarios where tracking certain files might be both unnecessary and a potential risk. E.g., tracking and pushing PII data. 
 
@@ -67,7 +68,7 @@ So how do we make sure we don't track these files with git but be able to access
 
 Use the .gitignore. 
 
-Files and directories listed in the .gitignore file are ignored by git, meaning they aren't tracked and therefore, doesn't get staged, committed or pushed each time you execute those git commands. 
+Files and directories listed in the .gitignore file are ignored by git, meaning they aren't tracked and therefore, doesn't get staged, committed or pushed each time you execute respective git commands. 
 
 ```shell
 
@@ -138,7 +139,7 @@ git checkout <commit ID> <filename>
 
 ## Example 2: 
 
-1. Fork the git-training repo
+1. Fork the `git-training` repo from https://github.com/nih-fmrif/git-training/
 2. Clone it down to your local machine 
 `git clone <repository url> ` 
 3. Find the `calc.R` file within your local copy of the repository in RStudio
