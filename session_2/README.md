@@ -59,8 +59,8 @@ git status
 You should see a list of .RHistory and other session files that are currently untracked. 
 
 These files are relevant only to the user of the local machine. Tracking these files would be a bad practice because: 
-	* As the project grows, we want the commit history to be as succinct as possible so that we can go back and forth without having to sort through irrelevant commits  
-	* If we are collaborating with others and if I commit and push my metadata, each time someone else pulls the repo into their local, they'll have to deal with merge conflicts (more in the next session)
+  * As the project grows, we want the commit history to be as succinct as possible so that we can go back and forth without having to sort through irrelevant commits  
+  * If we are collaborating with others and if I commit and push my metadata, each time someone else pulls the repo into their local, they'll have to deal with merge conflicts (more in the next session)
 
 There could be other scenarios where tracking certain files might be both unnecessary and a potential risk. E.g., tracking and pushing PII data. 
 
