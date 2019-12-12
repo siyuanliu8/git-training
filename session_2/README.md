@@ -1,11 +1,11 @@
 # Session 2
 
 In this session, we'll cover the following concepts: 
-    * Navigating commit history 
-    * Best practices 
-    * .gitignore
-    * GitHub features 
-    * Markdown vs Wiki
+  * Navigating commit history 
+  * Best practices 
+  * .gitignore
+  * GitHub features 
+  * Markdown vs Wiki
 
 Following the conceptual overview, we'll work through 2 examples together (in RStudio) and an exercise at the end of the session. 
 
