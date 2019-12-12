@@ -152,7 +152,7 @@ git checkout <commit ID> <filename>
 
 # now the file is back to a previous version. If you decide to keep this version, then add and commit it. 
 # This will show up as a new commit in the commit history
-# If its not commited the change (i.e., going back to previous version of test.r won't be recorded)
+# If its not committed, then the change (i.e., going back to previous version of test.r won't be recorded)
 git add -A 
 
 git commit -m "reverting back to previous version of test.r" 
